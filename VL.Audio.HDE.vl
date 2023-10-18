@@ -2946,11 +2946,11 @@
                 <Choice Kind="OperationCallFlag" Name="Switch" />
               </p:NodeReference>
               <Pin Id="IEMWlDyPJXDNIOUIq6jre5" Name="Index" Kind="InputPin" />
-              <Pin Id="EiqZmZ70v4FLBXclsD0iA1" Name="Input" Kind="InputPin" DefaultValue="64" />
-              <Pin Id="JGAPIfrR3wIP5Isk9fuu9f" Name="Input 2" Kind="InputPin" DefaultValue="129" />
+              <Pin Id="EiqZmZ70v4FLBXclsD0iA1" Name="Input" Kind="InputPin" DefaultValue="33" />
+              <Pin Id="JGAPIfrR3wIP5Isk9fuu9f" Name="Input 2" Kind="InputPin" DefaultValue="65" />
               <Pin Id="AAdRH3Lls0aNyjsY6LbdMM" Name="Output" Kind="OutputPin" />
-              <Pin Id="T6iIZTJOrTDPei5gic1OeD" Name="Input 3" Kind="InputPin" DefaultValue="257" />
-              <Pin Id="IEResFYJoY9QV1xqoh2uMd" Name="Input 4" Kind="InputPin" DefaultValue="213" />
+              <Pin Id="T6iIZTJOrTDPei5gic1OeD" Name="Input 3" Kind="InputPin" DefaultValue="129" />
+              <Pin Id="IEResFYJoY9QV1xqoh2uMd" Name="Input 4" Kind="InputPin" DefaultValue="257" />
             </Node>
             <Node Bounds="358,500,83,26" Id="L4tsy47FjoLMCYWG4qAOmF">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
@@ -3907,10 +3907,10 @@
                 </p:TypeArguments>
               </p:TypeAnnotation>
               <p:Value>
+                <Item>32</Item>
                 <Item>64</Item>
                 <Item>128</Item>
                 <Item>256</Item>
-                <Item>512</Item>
               </p:Value>
             </Pad>
             <Pad Id="EnaeyTQ9uBXQF3mW4AASj5" Bounds="1210,251,77,49" ShowValueBox="true" isIOBox="true">
