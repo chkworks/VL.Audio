@@ -4956,7 +4956,7 @@
                   <Choice Kind="TypeFlag" Name="CommonSpace" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="1233,836,91,26" Id="OQ17qMnrEK2O9cUxItiZII">
+              <Node Bounds="1232,841,91,26" Id="OQ17qMnrEK2O9cUxItiZII">
                 <p:NodeReference LastCategoryFullName="System.Windows.Forms.Form" LastDependency="VL.HDE.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="Form" NeedsToBeDirectParent="true" />
@@ -4966,7 +4966,7 @@
                 <Pin Id="BLecf15GQbDQVRQ74qt02I" Name="Value" Kind="InputPin" />
                 <Pin Id="T5hxRvI0e2COVk5v28RNfY" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="1233,875,93,26" Id="Nea962ewBr3MFIbNuotkPB">
+              <Node Bounds="1232,880,93,26" Id="Nea962ewBr3MFIbNuotkPB">
                 <p:NodeReference LastCategoryFullName="System.Windows.Forms.Form" LastDependency="VL.HDE.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="AssemblyCategory" Name="Form" NeedsToBeDirectParent="true" />
@@ -4983,6 +4983,17 @@
                 </p:NodeReference>
                 <Pin Id="MeMCUvhrMiDPKipWk5xs9F" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TR1i8pJVQRiQb4CS7LjnyA" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="1232,803,91,19" Id="IJILn9L0QePP1mh2vW3Uui">
+                <p:NodeReference LastCategoryFullName="VL.WinFormsUtils" LastDependency="VL.WinFormsUtils.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="WinFormsUtils" />
+                  <Choice Kind="ProcessAppFlag" Name="SetMaximizeBox" />
+                </p:NodeReference>
+                <Pin Id="P06rDlSPZKuMflGiFY0ncI" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="AcE9ro1nbjMMijoWdGsc8P" Name="Input" Kind="InputPin" />
+                <Pin Id="K4mEpDiz8tINEcmBAC3tEl" Name="Show Maximize Box" Kind="InputPin" DefaultValue="False" />
+                <Pin Id="Teg8WcKSPMUOyiGToLeaq9" Name="Input" Kind="OutputPin" />
               </Node>
             </Patch>
           </Node>
@@ -5097,7 +5108,6 @@
         <Link Id="TQ2oFqWqVxMLeH1nw0aQfN" Ids="Tv5inVYFKwLOjjdZLAgbfx,AZwzyqVi23dN8VZtAQ2TUk" />
         <Link Id="CNwMcsW5VDmPYKJwXu9w7u" Ids="Twv3gVRwAswNUWt8NpRgFz,DTs3RitBx6uPWIv4rchGnV" />
         <Link Id="KOJXUMyGK2gOBTWTqQiFOl" Ids="CMIjPLPNz6APMTlbUT7eXc,R9arAbXeAbZM5h0OqVNswO" />
-        <Link Id="Q9AyiXQHET2NTzxEspw1g3" Ids="SSwVZrFpA1JPCi7cxTqSc5,Mtd9nl0WJMHLxeupKUeewI" />
         <Link Id="RLZ5m9ePhQUOl8Y29N8oNW" Ids="G1mL3BvrcZVMpGpTBPunSv,FetP0Yne9JkL7UFy2T2xNH" />
         <Link Id="UyPenZsKTQJNxL28EQzsvx" Ids="DWXFwydZULMNxiEXjwTpEF,BLecf15GQbDQVRQ74qt02I" />
         <Link Id="AaUMwBqHuNiLgVa5FrIofM" Ids="T5hxRvI0e2COVk5v28RNfY,SRohN0OTInuMCU4o0J0WRQ" />
@@ -5105,6 +5115,8 @@
         <Link Id="TSc8R4LDxnyPIVeQM8YfqW" Ids="TR1i8pJVQRiQb4CS7LjnyA,QcVItQe3wt9NOVskL2j6Gk" />
         <Link Id="K2f2w4vu79ON7LIvWAMEyD" Ids="BuD987HjM0CNWDWCY4y8iq,DLDCG5KweBTLK42QdPCenx" />
         <Link Id="HOKiC6yuJRUPcdn9dRqq5X" Ids="RASxf0Qd535PJtSP9DoPS9,FYW33XKUuyYQWwr6zcNIQy" />
+        <Link Id="VZWNhh555lAPGsMXKI8U3n" Ids="SSwVZrFpA1JPCi7cxTqSc5,AcE9ro1nbjMMijoWdGsc8P" />
+        <Link Id="I3LV9YWspgjOX00PbUeDLI" Ids="Teg8WcKSPMUOyiGToLeaq9,Mtd9nl0WJMHLxeupKUeewI" />
       </Patch>
     </Node>
   </Patch>
@@ -5115,4 +5127,5 @@
   <NugetDependency Id="UBxtT8rh71ZLKC1uazzSgg" Location="VL.CoreLib.Windows" Version="2023.5.3-0214-g25d0a9da2c" />
   <NugetDependency Id="JQBpfeIhQdPNkFUVkPWtRK" Location="VL.ImGui.Skia" Version="2023.5.3-0214-g25d0a9da2c" />
   <NugetDependency Id="MSl0nsum3KNPTWTRPovohA" Location="VL.Stride" Version="2023.5.3-0214-g25d0a9da2c" />
+  <NugetDependency Id="RNmoPsLP7YSLFRthdv7L8P" Location="VL.WinFormsUtils" Version="1.0.9" />
 </Document>
